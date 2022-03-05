@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-##适用于单变量、多变量的线性回归，其中x始终为0：cols-1，y始终为cols-1：cols
+##适用于单变量、多变量的线性回归，其中x始终为0：cols-1，y始终为cols-1：cols，可用于检验模型灵敏度、预测
 path='ex1data1.txt'
 data=pd.read_csv(path,header=None,names=['Population','Profit'])
 print(data.head())
